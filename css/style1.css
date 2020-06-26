@@ -1,0 +1,104 @@
+body{
+    background-image: url("../image/image1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    
+    ;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+nav{
+    flex: 2;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 3px 2px;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #ff6b3f;
+}
+.menu-icons{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    margin:20px 20px;
+}
+.menu-icons img{
+    width: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.content{
+    width: 60%;
+    margin: 125px auto 0;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 60px;
+
+}
+.content h3{
+    width: 90%;
+    margin: 0px auto 0;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.btn-box{
+    margin: 20px auto;
+    text-align: center;
+
+}
+button{
+    width: 150px;
+    border: 1px solid #fe7550;
+    display: inline;
+/*      */
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+
+    border-radius: 25px;
+    cursor: pointer;
+    background: #fe7250;
+    transition: background 0.5s;
+    box-align: center;
+
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #fff;
+}
+.btn-2{
+    border: 2px solid #fff;
+    background: transparent;
+}
+.btn-2:hover{
+    border: 2px solid #fe7250;
+    background: #fe7250;
+}
+hr{
+    margin: 50 auto;
+}
+.:hover{
+    background: black;
+    color: white;
+}

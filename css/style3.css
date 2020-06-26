@@ -1,0 +1,26 @@
+body{
+    background-image: url("../image/image3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: black;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    color: black;
+    text-shadow: 3px 3px 3px gray;
+}
+h1:hover{
+
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
